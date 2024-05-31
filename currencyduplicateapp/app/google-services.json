@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "151029784572",
+    "project_id": "fake-currency-5b995",
+    "storage_bucket": "fake-currency-5b995.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151029784572:android:a6814a5f0da4c3f2a29c79",
+        "android_client_info": {
+          "package_name": "com.example.currency_duplicate_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLboMSaebNofn3n78dA2xUO6-R5STGZP0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

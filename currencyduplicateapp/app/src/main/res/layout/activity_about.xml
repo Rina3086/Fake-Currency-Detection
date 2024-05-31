@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#F7F7F7">
+
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="314dp"
+        android:layout_height="220dp"
+        android:background="@drawable/circle_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Currency Detection App"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This app utilizes a Convolutional Neural Network (CNN) to detect currency duplicates. CNN is a deep learning algorithm commonly used in image recognition tasks. It works by applying convolutional filters to input images to extract meaningful features, which are then used for classification. By training the CNN with a dataset of currency images, this app can accurately identify duplicate currency notes."
+        android:textSize="16sp"
+        android:textColor="#666666"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Add more information about the app here -->
+
+</LinearLayout>
